@@ -348,12 +348,15 @@ export default function Home() {
                     <Calendar className="w-6 h-6" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Consultation</h3>
-                  <a href="#" className="text-accent hover:underline font-medium">Book Online</a>
+                  <div className="flex flex-col">
+                    <span className="text-accent font-medium opacity-50 cursor-not-allowed">Book Online</span>
+                    <span className="text-xs text-muted-foreground mt-1 font-medium bg-muted px-2 py-0.5 rounded-full inline-block mx-auto">Coming Soon</span>
+                  </div>
                 </div>
               </div>
 
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 h-14 text-lg rounded-full shadow-xl shadow-primary/20">
-                Schedule Your Free Consultation <ArrowRight className="ml-2 w-5 h-5" />
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 h-14 text-lg rounded-full shadow-xl shadow-primary/20" onClick={() => scrollToSection('contact')}>
+                Call or Email to Schedule <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
           </div>
