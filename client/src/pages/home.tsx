@@ -19,7 +19,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 // Import assets
 import heroImage from "@assets/generated_images/minimalist_modern_white_and_navy_office_desk_with_financial_documents.png";
-import abstractImage from "@assets/generated_images/abstract_blue_and_gold_financial_data_visualization.png";
+import abstractImage from "@assets/generated_images/modern_architectural_abstract_with_navy_and_gold_accents.png";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
