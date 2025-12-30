@@ -83,7 +83,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -108,10 +107,7 @@ export default function Home() {
                   Bookkeeping
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
-                Professional accounting with the precision of EY and the innovation of Apple. 
-                Available for individuals and small businesses.
-              </p>
+              <p className="text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">Professional accounting you can trust. Available for individuals and small businesses.</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90" onClick={() => scrollToSection('contact')}>
                   Book a Free Consultation
@@ -135,7 +131,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
         <div className="container mx-auto px-6">
@@ -202,7 +197,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section id="services" className="py-24 bg-muted/30">
         <div className="container mx-auto px-6">
@@ -261,7 +255,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Why Choose Us */}
       <section id="why-us" className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
@@ -309,7 +302,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Contact / CTA */}
       <section id="contact" className="py-24 bg-white">
         <div className="container mx-auto px-6">
@@ -359,7 +351,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="bg-primary py-12 text-white/80 border-t border-white/10">
         <div className="container mx-auto px-6">
