@@ -102,9 +102,6 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <span className="inline-block py-1 px-3 rounded-full bg-secondary text-secondary-foreground text-xs font-bold tracking-wider uppercase mb-6">
-                Backed by Big 4 Experience
-              </span>
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary leading-tight mb-6">
                 Expert Tax & <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
