@@ -36,62 +36,62 @@
 }
 
 :root {
-  /* Elegant Corporate Theme: Navy, White, Gold Accent */
+  /* Elegant Corporate Theme: Green, White, Gold Accent */
   
   /* Background: Clean White/Off-White */
-  --background: 210 20% 98%;
-  --foreground: 215 25% 15%; /* Deep Navy/Charcoal text */
+  --background: 150 20% 98%;
+  --foreground: 155 30% 15%; /* Deep Green/Charcoal text */
 
-  /* Primary: Deep Navy Blue (Trust, Authority) */
-  --primary: 215 35% 20%;
+  /* Primary: Deep Forest Green (Trust, Growth) */
+  --primary: 155 40% 22%;
   --primary-foreground: 0 0% 100%;
 
-  /* Secondary: Soft Beige/Gold (Sophistication) */
-  --secondary: 35 30% 90%;
-  --secondary-foreground: 215 35% 20%;
+  /* Secondary: Soft Sage/Beige (Sophistication) */
+  --secondary: 45 30% 90%;
+  --secondary-foreground: 155 40% 22%;
 
   /* Accent: Muted Gold (Highlights) */
-  --accent: 35 60% 50%;
+  --accent: 38 65% 50%;
   --accent-foreground: 0 0% 100%;
 
-  /* Muted: Grayish Blue */
-  --muted: 215 20% 90%;
-  --muted-foreground: 215 20% 40%;
+  /* Muted: Grayish Green */
+  --muted: 150 15% 90%;
+  --muted-foreground: 155 20% 40%;
 
   /* Cards: White */
   --card: 0 0% 100%;
-  --card-foreground: 215 25% 15%;
+  --card-foreground: 155 30% 15%;
 
-  --border: 215 20% 85%;
-  --input: 215 20% 85%;
-  --ring: 215 35% 20%;
+  --border: 150 15% 85%;
+  --input: 150 15% 85%;
+  --ring: 155 40% 22%;
 
   --radius: 0.5rem;
 }
 
 .dark {
-  /* Dark Mode: Deep Navy Background */
-  --background: 215 35% 10%;
-  --foreground: 210 20% 90%;
+  /* Dark Mode: Deep Green Background */
+  --background: 155 35% 10%;
+  --foreground: 150 20% 90%;
 
-  --primary: 215 35% 25%;
+  --primary: 155 40% 25%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 215 30% 15%;
-  --secondary-foreground: 210 20% 90%;
+  --secondary: 155 30% 15%;
+  --secondary-foreground: 150 20% 90%;
 
-  --accent: 35 60% 50%;
+  --accent: 38 65% 50%;
   --accent-foreground: 0 0% 100%;
 
-  --muted: 215 30% 15%;
-  --muted-foreground: 215 20% 60%;
+  --muted: 155 30% 15%;
+  --muted-foreground: 155 20% 60%;
 
-  --card: 215 35% 13%;
-  --card-foreground: 210 20% 90%;
+  --card: 155 35% 13%;
+  --card-foreground: 150 20% 90%;
 
-  --border: 215 30% 20%;
-  --input: 215 30% 20%;
-  --ring: 35 60% 50%;
+  --border: 155 30% 20%;
+  --input: 155 30% 20%;
+  --ring: 38 65% 50%;
 }
 
 @layer base {
