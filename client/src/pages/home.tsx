@@ -11,7 +11,8 @@ import {
   Calendar,
   Menu,
   X,
-  ArrowRight
+  ArrowRight,
+  DollarSign
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -227,7 +228,12 @@ export default function Home() {
               {
                 icon: Compass,
                 title: "Advisory & Planning",
-                description: "Cash flow insights, payroll setup, and growth-focused financial guidance."
+                description: "Cash flow insights and growth-focused financial guidance."
+              },
+              {
+                icon: DollarSign,
+                title: "Payroll",
+                description: "Reliable payroll processing, tax filings, and compliance so you can focus on your business."
               }
             ].map((service, index) => (
               <motion.div
