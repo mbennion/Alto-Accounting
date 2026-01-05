@@ -12,7 +12,8 @@ import {
   Menu,
   X,
   ArrowRight,
-  DollarSign
+  DollarSign,
+  Upload
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -317,13 +318,21 @@ export default function Home() {
                 If you’re ready for accounting that feels effortless — and advice you can actually use — let’s connect.
               </p>
               
-              <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-xl mx-auto">
+              <div className="grid md:grid-cols-3 gap-8 mb-12">
                 <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Mail className="w-6 h-6" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Email</h3>
                   <a href="mailto:graydon@altoaccounting.com" className="text-accent hover:underline font-medium">graydon@altoaccounting.com</a>
+                </div>
+
+                <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
+                  <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
+                    <Upload className="w-6 h-6" />
+                  </div>
+                  <h3 className="font-bold text-lg mb-2">Secure Upload</h3>
+                  <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">Upload Documents</a>
                 </div>
 
                 <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
