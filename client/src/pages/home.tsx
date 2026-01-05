@@ -120,10 +120,6 @@ export default function Home() {
               
               <div className="mt-12 flex items-center gap-6 text-sm text-muted-foreground font-medium">
                 <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4 text-accent" />
-                  801-879-1098
-                </div>
-                <div className="hidden sm:flex items-center gap-2">
                   <Mail className="w-4 h-4 text-accent" />
                   graydon@altoaccounting.com
                 </div>
@@ -321,15 +317,7 @@ export default function Home() {
                 If you’re ready for accounting that feels effortless — and advice you can actually use — let’s connect.
               </p>
               
-              <div className="grid md:grid-cols-3 gap-8 mb-12">
-                <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
-                  <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
-                    <Phone className="w-6 h-6" />
-                  </div>
-                  <h3 className="font-bold text-lg mb-2">Call or Text</h3>
-                  <a href="tel:801-879-1098" className="text-accent hover:underline font-medium">801-879-1098</a>
-                </div>
-                
+              <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-xl mx-auto">
                 <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Mail className="w-6 h-6" />
@@ -351,7 +339,7 @@ export default function Home() {
               </div>
 
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 h-14 text-lg rounded-full shadow-xl shadow-primary/20" onClick={() => scrollToSection('contact')}>
-                Call or Email to Schedule <ArrowRight className="ml-2 w-5 h-5" />
+                Email to Schedule <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
           </div>
