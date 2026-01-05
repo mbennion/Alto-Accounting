@@ -211,9 +211,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
               {
-                icon: BookOpen,
-                title: "Bookkeeping",
-                description: "Accurate monthly books, reconciliations, and financial reports you can trust."
+                icon: Users,
+                title: "Individual Taxes",
+                description: "Straightforward, stress-free tax prep with proactive advice for next year."
               },
               {
                 icon: Briefcase,
@@ -221,19 +221,19 @@ export default function Home() {
                 description: "C-Corp, S-Corp, Partnerships, LLC, or sole proprietor — file confidently and maximize deductions."
               },
               {
-                icon: Users,
-                title: "Individual Taxes",
-                description: "Straightforward, stress-free tax prep with proactive advice for next year."
-              },
-              {
-                icon: Compass,
-                title: "Advisory & Planning",
-                description: "Cash flow insights and growth-focused financial guidance."
+                icon: BookOpen,
+                title: "Bookkeeping",
+                description: "Accurate monthly books, reconciliations, and financial reports you can trust."
               },
               {
                 icon: DollarSign,
                 title: "Payroll",
                 description: "Reliable payroll processing, tax filings, and compliance so you can focus on your business."
+              },
+              {
+                icon: Compass,
+                title: "Advisory & Planning",
+                description: "Cash flow insights and growth-focused financial guidance."
               }
             ].map((service, index) => (
               <motion.div
