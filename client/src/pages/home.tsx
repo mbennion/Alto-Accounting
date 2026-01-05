@@ -267,6 +267,57 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Pricing Section */}
+      <section id="pricing" className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <h2 className="text-4xl font-serif font-bold text-primary mb-4">Tax Preparation Pricing</h2>
+            <p className="text-muted-foreground text-lg">
+              Transparent, flat-rate pricing. No surprises, no hidden fees.
+            </p>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="max-w-2xl mx-auto"
+          >
+            <div className="bg-muted/30 rounded-2xl overflow-hidden shadow-lg">
+              <table className="w-full">
+                <thead>
+                  <tr className="bg-primary text-white">
+                    <th className="text-left py-4 px-6 font-semibold">Service</th>
+                    <th className="text-right py-4 px-6 font-semibold">Starting At</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  <tr className="hover:bg-muted/50 transition-colors">
+                    <td className="py-4 px-6 text-foreground">Individual Federal 1040 + One State Return</td>
+                    <td className="py-4 px-6 text-right font-semibold text-primary">$400+</td>
+                  </tr>
+                  <tr className="hover:bg-muted/50 transition-colors">
+                    <td className="py-4 px-6 text-foreground">Federal 1040 with Schedule A (Itemized) + State</td>
+                    <td className="py-4 px-6 text-right font-semibold text-primary">$450+</td>
+                  </tr>
+                  <tr className="hover:bg-muted/50 transition-colors">
+                    <td className="py-4 px-6 text-foreground">Additional Schedules C/D/E/F (Self-Employed, Rental, etc.)</td>
+                    <td className="py-4 px-6 text-right font-semibold text-primary">$200+</td>
+                  </tr>
+                  <tr className="hover:bg-muted/50 transition-colors">
+                    <td className="py-4 px-6 text-foreground">Small Business Tax Return (1065, 1120S, 1120)</td>
+                    <td className="py-4 px-6 text-right font-semibold text-primary">$900+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-center text-sm text-muted-foreground mt-6">
+              Final pricing based on complexity. Contact for a personalized quote.
+            </p>
+          </motion.div>
+        </div>
+      </section>
       {/* Why Choose Us */}
       <section id="why-us" className="py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
