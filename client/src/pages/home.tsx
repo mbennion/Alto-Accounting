@@ -340,7 +340,7 @@ export default function Home() {
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Upload className="w-6 h-6" />
                   </div>
-                  <h3 className="font-bold text-lg mb-2">Secure Upload</h3>
+                  <h3 className="font-bold text-lg mb-2">Client Portal</h3>
                   <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">Upload Documents</a>
                 </div>
               </div>
