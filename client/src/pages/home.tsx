@@ -270,10 +270,10 @@ export default function Home() {
       {/* Pricing Section */}
       <section id="pricing" className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center max-w-2xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-serif font-bold text-primary mb-4">Tax Preparation Pricing</h2>
-            <p className="text-muted-foreground text-lg">
-              Transparent, flat-rate pricing. No surprises, no hidden fees.
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
             </p>
           </div>
 
@@ -312,9 +312,6 @@ export default function Home() {
                 </tbody>
               </table>
             </div>
-            <p className="text-center text-sm text-muted-foreground mt-6">
-              Final pricing based on complexity. Contact for a personalized quote.
-            </p>
           </motion.div>
         </div>
       </section>
