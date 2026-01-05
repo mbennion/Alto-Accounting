@@ -313,6 +313,10 @@ export default function Home() {
                     <td className="py-4 px-6 text-foreground">Business Tax Return (1065, 1120S, 1120)</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$900+</td>
                   </tr>
+                  <tr className="hover:bg-muted/50 transition-colors">
+                    <td className="py-4 px-6 text-foreground">Other</td>
+                    <td className="py-4 px-6 text-right font-semibold text-primary">Inquire</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
