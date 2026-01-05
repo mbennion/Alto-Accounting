@@ -302,7 +302,7 @@ export default function Home() {
                     <td className="py-4 px-6 text-right font-semibold text-primary">$450+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Additional Schedules C/D/E/F (Self-Employed, Sale of Capital Assets, Rental, Farm)</td>
+                    <td className="py-4 px-6 text-foreground">Additional Schedules C/D/E (Self-Employed, Capital Gains/Losses, Rental/Royalty)</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$200+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
