@@ -63,7 +63,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-sm font-medium hover:text-accent transition-colors"
             >
-              Client Upload Portal
+              Client Portal
             </a>
             <Button 
               className="bg-primary hover:bg-primary/90 text-white rounded-full px-6"
@@ -86,7 +86,7 @@ export default function Home() {
                   <button onClick={() => scrollToSection('about')} className="text-lg font-medium text-left">About</button>
                   <button onClick={() => scrollToSection('services')} className="text-lg font-medium text-left">Services</button>
                   <button onClick={() => scrollToSection('why-us')} className="text-lg font-medium text-left">Why Alto</button>
-                  <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-left">Client Upload Portal</a>
+                  <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-left">Client Portal</a>
                   <Button onClick={() => scrollToSection('contact')} className="w-full">Book Consultation</Button>
                 </div>
               </SheetContent>
