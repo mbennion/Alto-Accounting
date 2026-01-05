@@ -327,7 +327,7 @@ export default function Home() {
                 If you’re ready for accounting that feels effortless — and advice you can actually use — let’s connect.
               </p>
               
-              <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-xl mx-auto">
                 <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Mail className="w-6 h-6" />
@@ -342,17 +342,6 @@ export default function Home() {
                   </div>
                   <h3 className="font-bold text-lg mb-2">Secure Upload</h3>
                   <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">Upload Documents</a>
-                </div>
-
-                <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
-                  <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
-                    <Calendar className="w-6 h-6" />
-                  </div>
-                  <h3 className="font-bold text-lg mb-2">Consultation</h3>
-                  <div className="flex flex-col">
-                    <span className="text-accent font-medium opacity-50 cursor-not-allowed">Book Online</span>
-                    <span className="text-xs text-muted-foreground mt-1 font-medium bg-muted px-2 py-0.5 rounded-full inline-block mx-auto">Coming Soon</span>
-                  </div>
                 </div>
               </div>
 
