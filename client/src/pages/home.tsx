@@ -152,7 +152,7 @@ export default function Home() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-secondary rounded-tl-3xl -z-10" />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-br-3xl -z-10" />
               <img 
-                src="/attached_assets/1516356237177_1767658830869.jpeg" 
+                src="/graydon-headshot.jpeg" 
                 alt="Graydon Anderson" 
                 className="rounded-xl shadow-2xl w-full aspect-square object-cover object-top"
               />
