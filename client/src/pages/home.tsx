@@ -152,9 +152,9 @@ export default function Home() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-secondary rounded-tl-3xl -z-10" />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-br-3xl -z-10" />
               <img 
-                src={abstractImage} 
-                alt="Financial Strategy" 
-                className="rounded-xl shadow-2xl w-full aspect-[4/3] object-cover"
+                src="/attached_assets/1516356237177_1767658830869.jpeg" 
+                alt="Graydon Anderson" 
+                className="rounded-xl shadow-2xl w-full aspect-square object-cover object-top"
               />
               <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur p-6 rounded-lg shadow-lg border border-slate-100">
                 <p className="font-serif text-xl italic text-primary">
