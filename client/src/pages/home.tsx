@@ -147,21 +147,16 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="relative flex justify-center items-center"
+              className="relative flex justify-center"
             >
-              <div className="relative max-w-xs">
-                <div className="absolute -top-4 -left-4 w-20 h-20 bg-secondary rounded-tl-3xl -z-10" />
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-primary/10 rounded-br-3xl -z-10" />
+              <div className="relative w-1/2">
+                <div className="absolute -top-4 -left-4 w-16 h-16 bg-secondary rounded-tl-3xl -z-10" />
+                <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-primary/10 rounded-br-3xl -z-10" />
                 <img 
                   src="/graydon-headshot.jpeg" 
                   alt="Graydon Anderson" 
                   className="rounded-xl shadow-2xl w-full aspect-square object-cover object-top"
                 />
-                <div className="mt-6 bg-white/95 backdrop-blur p-4 rounded-lg shadow-lg border border-slate-100 text-center">
-                  <p className="font-serif text-lg italic text-primary">
-                    "Big firm experience. Small firm attention."
-                  </p>
-                </div>
               </div>
             </motion.div>
 
