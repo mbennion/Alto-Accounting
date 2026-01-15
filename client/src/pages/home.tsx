@@ -149,13 +149,13 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="relative flex justify-center"
             >
-              <div className="relative w-1/2">
+              <div className="relative w-2/3">
                 <div className="absolute -top-4 -left-4 w-16 h-16 bg-secondary rounded-tl-3xl -z-10" />
                 <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-primary/10 rounded-br-3xl -z-10" />
                 <img 
                   src="/graydon-headshot.jpeg" 
                   alt="Graydon Anderson" 
-                  className="rounded-xl shadow-2xl w-full aspect-square object-cover object-top"
+                  className="rounded-xl shadow-2xl w-full aspect-[4/5] object-cover object-top"
                 />
               </div>
             </motion.div>
