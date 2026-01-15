@@ -157,6 +157,7 @@ export default function Home() {
                   alt="Graydon Anderson" 
                   className="rounded-xl shadow-2xl w-full aspect-[4/5] object-cover object-top"
                 />
+                <p className="text-center mt-4 font-semibold text-primary text-lg">Graydon Anderson, CPA</p>
               </div>
             </motion.div>
 
@@ -168,7 +169,7 @@ export default function Home() {
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About Alto Accounting</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I’m <span className="font-semibold text-foreground">Graydon Anderson</span>, founder of Alto Accounting.
+                I'm the founder of Alto Accounting.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 After 5 years at <span className="font-semibold text-primary">EY (Big 4 accounting firm)</span> and 10 years leading financial operations at <span className="font-semibold text-primary">Apple</span>, I started Alto Accounting to bring the same level of accuracy, strategy, and professionalism to individuals and small businesses.
