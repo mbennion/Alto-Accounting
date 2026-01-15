@@ -331,7 +331,7 @@ export default function Home() {
               <div className="space-y-6">
                 {[
                   "Big 4 and Fortune 100 expertise",
-                  "Transparent, flat-rate pricing",
+                  "Owner-operated, hands-on service",
                   "Personalized, responsive service",
                   "Local knowledge — available remote or in-person"
                 ].map((item, i) => (
