@@ -273,23 +273,23 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-center max-w-2xl mx-auto"
+            className="text-center max-w-3xl mx-auto mb-20"
           >
-            <h2 className="text-4xl font-serif font-bold text-primary mb-6">Getting Started is Easy</h2>
-            <div className="text-muted-foreground text-lg leading-relaxed mb-10">
-              <div className="flex flex-col gap-4 text-left max-w-md mx-auto">
-                <div className="flex items-start gap-3">
-                  <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">1</span>
-                  <span>Complete the intake form</span>
+            <h2 className="text-5xl font-serif font-bold text-primary mb-8">Getting Started is Easy</h2>
+            <div className="text-muted-foreground text-xl leading-relaxed mb-12">
+              <div className="flex flex-col gap-5 text-left max-w-lg mx-auto">
+                <div className="flex items-start gap-4">
+                  <span className="bg-primary text-white rounded-full w-9 h-9 flex items-center justify-center text-base font-semibold shrink-0">1</span>
+                  <span className="pt-1">Complete the intake form</span>
                 </div>
-                <div className="flex items-start gap-3">
-                  <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">2</span>
-                  <span>Download the tax organizer and begin compiling your documents</span>
+                <div className="flex items-start gap-4">
+                  <span className="bg-primary text-white rounded-full w-9 h-9 flex items-center justify-center text-base font-semibold shrink-0">2</span>
+                  <span className="pt-1">Download the tax organizer and begin compiling your documents</span>
                 </div>
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=header" 
                 target="_blank" 
@@ -309,9 +309,18 @@ export default function Home() {
                 </Button>
               </a>
             </div>
+          </motion.div>
 
-            <p className="text-muted-foreground text-base leading-relaxed mb-6 max-w-2xl mx-auto">
-              <span className="font-semibold text-primary">Pricing:</span> These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-center max-w-2xl mx-auto"
+          >
+            <h3 className="text-4xl font-serif font-bold text-primary mb-6">Pricing</h3>
+            <p className="text-muted-foreground text-base leading-relaxed mb-8">
+              These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
             </p>
 
             <div className="bg-muted/30 rounded-2xl overflow-hidden shadow-lg max-w-2xl mx-auto">
