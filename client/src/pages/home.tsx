@@ -120,13 +120,11 @@ export default function Home() {
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">Professional accounting you can trust. Available for individuals and small businesses.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-accent hover:bg-accent/90" asChild>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
-                    Start Your Tax Prep
-                  </a>
-                </Button>
                 <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90" onClick={() => scrollToSection('contact')}>
                   Book a Free Consultation
+                </Button>
+                <Button variant="outline" size="lg" className="rounded-full text-lg h-12 px-8 border-primary text-primary hover:bg-secondary/50" onClick={() => scrollToSection('services')}>
+                  View Services
                 </Button>
               </div>
               
