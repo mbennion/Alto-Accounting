@@ -65,12 +65,15 @@ export default function Home() {
             >
               Client Portal
             </a>
-            <Button 
-              className="bg-primary hover:bg-primary/90 text-white rounded-full px-6"
-              onClick={() => scrollToSection('contact')}
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Book Consultation
-            </Button>
+              <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-6">
+                Start Tax Prep
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu */}
@@ -87,7 +90,7 @@ export default function Home() {
                   <button onClick={() => scrollToSection('services')} className="text-lg font-medium text-left">Services</button>
                   <button onClick={() => scrollToSection('why-us')} className="text-lg font-medium text-left">Why Alto</button>
                   <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-left">Client Portal</a>
-                  <Button onClick={() => scrollToSection('contact')} className="w-full">Book Consultation</Button>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="w-full"><Button className="w-full">Start Tax Prep</Button></a>
                 </div>
               </SheetContent>
             </Sheet>
@@ -120,9 +123,11 @@ export default function Home() {
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">Professional accounting you can trust. Available for individuals and small businesses.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90" onClick={() => scrollToSection('contact')}>
-                  Book a Free Consultation
-                </Button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90">
+                    Start Tax Prep
+                  </Button>
+                </a>
                 <Button variant="outline" size="lg" className="rounded-full text-lg h-12 px-8 border-primary text-primary hover:bg-secondary/50" onClick={() => scrollToSection('services')}>
                   View Services
                 </Button>
