@@ -270,58 +270,40 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Pricing Section */}
+      {/* Get Started Section */}
       <section id="pricing" className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-serif font-bold text-primary mb-4">Tax Preparation Pricing</h2>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
-            </p>
-          </div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="max-w-2xl mx-auto"
+            className="text-center max-w-2xl mx-auto"
           >
-            <div className="bg-muted/30 rounded-2xl overflow-hidden shadow-lg">
-              <table className="w-full">
-                <thead>
-                  <tr className="bg-primary text-white">
-                    <th className="text-left py-4 px-6 font-semibold">Service</th>
-                    <th className="text-right py-4 px-6 font-semibold">Starting At</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-border">
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Individual Federal 1040 + One State Return</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">$400+</td>
-                  </tr>
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Federal 1040 with Schedule A (Itemized) + State</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">$450+</td>
-                  </tr>
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Additional Schedules C/D/E (Self-Employed, Capital Gains/Losses, Rental/Royalty)</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">$200+</td>
-                  </tr>
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Additional State Returns</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">$150+</td>
-                  </tr>
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Business Tax Return (1065, 1120S, 1120)</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">$900+</td>
-                  </tr>
-                  <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Other</td>
-                    <td className="py-4 px-6 text-right font-semibold text-primary">Inquire</td>
-                  </tr>
-                </tbody>
-              </table>
+            <h2 className="text-4xl font-serif font-bold text-primary mb-6">Get Started on Your Taxes</h2>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-10">
+              Complete our intake form and tax organizer to begin. Pricing starts at $400 for individuals and $900 for businesses, depending on complexity.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=header" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90">
+                  <ArrowRight className="w-5 h-5 mr-2" /> Start Intake Form
+                </Button>
+              </a>
+              <a 
+                href="https://docs.google.com/spreadsheets/d/1UwUbBLAiIq90YmRRt23OP-odkMIO3rO-6JVjAZWFrag/edit?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" variant="outline" className="rounded-full text-lg h-12 px-8 border-primary text-primary hover:bg-secondary/50">
+                  <ArrowRight className="w-5 h-5 mr-2" /> Tax Organizer
+                </Button>
+              </a>
             </div>
           </motion.div>
         </div>
