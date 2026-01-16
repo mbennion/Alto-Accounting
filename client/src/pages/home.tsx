@@ -276,9 +276,19 @@ export default function Home() {
             className="text-center max-w-2xl mx-auto"
           >
             <h2 className="text-4xl font-serif font-bold text-primary mb-6">Get Started on Your Taxes</h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-              Getting started is easy. 1) Start the intake form 2) Download the tax organizer and begin compiling your documents
-            </p>
+            <div className="text-muted-foreground text-lg leading-relaxed mb-10">
+              <p className="mb-4">Getting started is easy:</p>
+              <div className="flex flex-col sm:flex-row justify-center gap-6 text-left max-w-lg mx-auto">
+                <div className="flex items-start gap-3">
+                  <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">1</span>
+                  <span>Start the intake form</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">2</span>
+                  <span>Download the tax organizer and begin compiling your documents</span>
+                </div>
+              </div>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a 
