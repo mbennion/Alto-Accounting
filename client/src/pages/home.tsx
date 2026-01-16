@@ -170,13 +170,16 @@ export default function Home() {
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About Alto Accounting</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion, CPA.
+                Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion Anderson, CPA.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Graydon spent 5 years at <span className="font-semibold text-primary">EY</span> and 10 years at <span className="font-semibold text-primary">Apple</span> in financial and operational planning roles and earned his bachelor's degree from BYU's nationally top-ranked accounting program. Angela brings experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span> and earned her Master of Accountancy from BYU's #1-ranked MAcc program.
+                Graydon brings 5 years at <span className="font-semibold text-primary">EY</span> and 10 years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela contributes experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
+              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                Both are proud graduates of BYU's nationally top-ranked accounting programs (Graydon: Bachelor's; Angela: Master of Accountancy).
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Whether you need help with bookkeeping, business taxes, or financial strategy, I’ll make sure your numbers are handled with the care of a Fortune 100 finance team.
+                We deliver the precision and expertise of a Fortune 100 finance team—combined with the personal attention and care that only a family-run firm can provide—for your bookkeeping, business taxes, and financial strategy.
               </p>
               
               <div className="grid grid-cols-3 gap-6">
@@ -195,7 +198,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground">Fortune 100</h4>
-                    <p className="text-sm text-muted-foreground">Apple and Sonos</p>
+                    <p className="text-sm text-muted-foreground">Apple Experience</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
