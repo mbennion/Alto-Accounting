@@ -330,7 +330,7 @@ export default function Home() {
           >
             <h3 className="text-4xl font-serif font-bold text-primary mb-6">Pricing</h3>
             <p className="text-muted-foreground text-base leading-relaxed mb-8">
-              These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
+              These ranges give you an idea of what tax preparation and e-filing will likely cost. Every return is different, and these are starting ranges. Reach out for a tailored quote.
             </p>
 
             <div className="bg-muted/30 rounded-2xl overflow-hidden shadow-lg max-w-2xl mx-auto">
