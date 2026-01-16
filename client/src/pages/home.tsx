@@ -170,13 +170,10 @@ export default function Home() {
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About Alto Accounting</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion Anderson, CPA.
+                Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion Anderson, CPA. We're proud parents of four children.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Graydon brings 5 years at <span className="font-semibold text-primary">EY</span> and 10 years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela contributes experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
-              </p>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Both are proud graduates of BYU's nationally top-ranked accounting programs (Graydon: Bachelor's; Angela: Master of Accountancy).
+                Both are graduates of BYU's nationally top-ranked accounting programs. Graydon brings five years at <span className="font-semibold text-primary">EY</span> and 10 years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela contributes experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 We deliver the precision and expertise of a Fortune 100 finance team—combined with the personal attention and care that only a family-run firm can provide—for your bookkeeping, business taxes, and financial strategy.
