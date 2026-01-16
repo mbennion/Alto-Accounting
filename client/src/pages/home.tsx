@@ -310,33 +310,33 @@ export default function Home() {
               <table className="w-full">
                 <thead>
                   <tr className="bg-primary text-white">
-                    <th className="text-left py-4 px-6 font-semibold">Service</th>
+                    <th className="text-right py-4 px-6 font-semibold">Service</th>
                     <th className="text-right py-4 px-6 font-semibold">Starting At</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-border">
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Individual Federal 1040 + One State Return</td>
+                    <td className="py-4 px-6 text-foreground text-right">Individual Federal 1040 + One State Return</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$400+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Federal 1040 with Schedule A (Itemized) + State</td>
+                    <td className="py-4 px-6 text-foreground text-right">Federal 1040 with Schedule A (Itemized) + State</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$450+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Additional Schedules C/D/E (Self-Employed, Capital Gains/Losses, Rental/Royalty)</td>
+                    <td className="py-4 px-6 text-foreground text-right">Additional Schedules C/D/E (Self-Employed, Capital Gains/Losses, Rental/Royalty)</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$200+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Additional State Returns</td>
+                    <td className="py-4 px-6 text-foreground text-right">Additional State Returns</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$150+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Business Tax Return (1065, 1120S, 1120)</td>
+                    <td className="py-4 px-6 text-foreground text-right">Business Tax Return (1065, 1120S, 1120)</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">$900+</td>
                   </tr>
                   <tr className="hover:bg-muted/50 transition-colors">
-                    <td className="py-4 px-6 text-foreground">Other</td>
+                    <td className="py-4 px-6 text-foreground text-right">Other</td>
                     <td className="py-4 px-6 text-right font-semibold text-primary">Inquire</td>
                   </tr>
                 </tbody>
