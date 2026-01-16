@@ -275,7 +275,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center max-w-2xl mx-auto"
           >
-            <h2 className="text-4xl font-serif font-bold text-primary mb-6">Get Started on Your Taxes</h2>
+            <h2 className="text-4xl font-serif font-bold text-primary mb-6">Getting Started is Easy</h2>
             <div className="text-muted-foreground text-lg leading-relaxed mb-10">
               <div className="flex flex-col gap-4 text-left max-w-md mx-auto">
                 <div className="flex items-start gap-3">
