@@ -169,10 +169,10 @@ export default function Home() {
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About Alto Accounting</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm the founder of Alto Accounting.
+                Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion, CPA.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                After 5 years at <span className="font-semibold text-primary">EY (Big 4 accounting firm)</span> and 10 years leading financial operations at <span className="font-semibold text-primary">Apple</span>, I started Alto Accounting to bring the same level of accuracy, strategy, and professionalism to individuals and small businesses.
+                Graydon spent 5 years at <span className="font-semibold text-primary">EY</span> and 10 years at <span className="font-semibold text-primary">Apple</span> in financial and operational planning roles and earned his bachelor's degree from BYU's nationally top-ranked accounting program. Angela brings experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span> and earned her Master of Accountancy from BYU's #1-ranked MAcc program.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 Whether you need help with bookkeeping, business taxes, or financial strategy, I’ll make sure your numbers are handled with the care of a Fortune 100 finance team.
