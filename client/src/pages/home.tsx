@@ -149,7 +149,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="relative flex justify-center"
             >
-              <div className="relative w-1/2">
+              <div className="relative w-2/3">
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-secondary rounded-tl-3xl -z-10" />
                 <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-primary/10 rounded-br-3xl -z-10" />
                 <img 
@@ -157,7 +157,6 @@ export default function Home() {
                   alt="Graydon Anderson and Angela Anderson" 
                   className="rounded-xl shadow-2xl w-full aspect-[4/5] object-cover object-top"
                 />
-                <p className="text-center mt-4 font-bold text-primary text-xl">Graydon Anderson, CPA and Angela Anderson, CPA</p>
               </div>
             </motion.div>
 
