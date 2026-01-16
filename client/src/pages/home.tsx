@@ -142,15 +142,15 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-5 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="relative flex justify-center"
+              className="relative flex justify-start md:col-span-2"
             >
-              <div className="relative w-2/3">
+              <div className="relative w-full">
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-secondary rounded-tl-3xl -z-10" />
                 <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-primary/10 rounded-br-3xl -z-10" />
                 <img 
@@ -166,6 +166,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
+              className="md:col-span-3"
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About Alto Accounting</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
