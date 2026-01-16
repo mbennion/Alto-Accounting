@@ -278,10 +278,10 @@ export default function Home() {
             <h2 className="text-4xl font-serif font-bold text-primary mb-6">Get Started on Your Taxes</h2>
             <div className="text-muted-foreground text-lg leading-relaxed mb-10">
               <p className="mb-4">Getting started is easy:</p>
-              <div className="flex flex-col sm:flex-row justify-center gap-6 text-left max-w-lg mx-auto">
+              <div className="flex flex-col gap-4 text-left max-w-md mx-auto">
                 <div className="flex items-start gap-3">
                   <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">1</span>
-                  <span>Start the intake form</span>
+                  <span>Complete the intake form</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="bg-primary text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-semibold shrink-0">2</span>
