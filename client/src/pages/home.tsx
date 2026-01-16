@@ -13,7 +13,8 @@ import {
   X,
   ArrowRight,
   DollarSign,
-  Upload
+  Upload,
+  GraduationCap
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -177,14 +178,14 @@ export default function Home() {
                 Whether you need help with bookkeeping, business taxes, or financial strategy, I’ll make sure your numbers are handled with the care of a Fortune 100 finance team.
               </p>
               
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-3 gap-6">
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary mt-1">
                     <Briefcase className="w-5 h-5" />
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground">Ex-Big 4</h4>
-                    <p className="text-sm text-muted-foreground">EY Experience</p>
+                    <p className="text-sm text-muted-foreground">EY and PwC Experience</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -193,7 +194,16 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground">Fortune 100</h4>
-                    <p className="text-sm text-muted-foreground">Apple Finance Lead</p>
+                    <p className="text-sm text-muted-foreground">Apple and Sonos</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary mt-1">
+                    <GraduationCap className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-foreground">BYU Grads</h4>
+                    <p className="text-sm text-muted-foreground">Top-Ranked Accounting School</p>
                   </div>
                 </div>
               </div>
