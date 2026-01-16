@@ -170,7 +170,7 @@ export default function Home() {
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About us</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Alto Accounting is led by husband and wife team Graydon Anderson, CPA and Angela Bennion Anderson, CPA. We're proud parents of four children.
+                Alto Accounting is led by husband-and-wife team Graydon Anderson, CPA, and Angela Bennion Anderson, CPA. We're proud parents of four children.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Both are graduates of BYU's top-ranked accounting program. Graydon spent five years at <span className="font-semibold text-primary">EY</span> and ten years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela adds experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
