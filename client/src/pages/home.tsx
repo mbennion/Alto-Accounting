@@ -277,7 +277,7 @@ export default function Home() {
           >
             <h2 className="text-4xl font-serif font-bold text-primary mb-6">Get Started on Your Taxes</h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-              Complete our intake form and tax organizer to begin. Pricing starts at $400 for individuals and $900 for businesses, depending on complexity.
+              Getting started is easy. 1) Start the intake form 2) Download the tax organizer and begin compiling your documents
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
