@@ -280,7 +280,7 @@ export default function Home() {
               Complete our intake form and tax organizer to begin. Pricing starts at $400 for individuals and $900 for businesses, depending on complexity.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a 
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfNRkZwA7AR6sC816lnQogEQNxYadfb3ysAVAooeE1qiWqVEA/viewform?usp=header" 
                 target="_blank" 
@@ -300,6 +300,10 @@ export default function Home() {
                 </Button>
               </a>
             </div>
+
+            <p className="text-muted-foreground text-base leading-relaxed mb-6 max-w-2xl mx-auto">
+              <span className="font-semibold text-primary">Pricing:</span> These ranges are meant to give you an idea of what tax preparation and e-filing will likely cost. Keep in mind that every return is different, and these are starting ranges. Once you send me all your documents and details of any special circumstances, I can send you a quote beforehand upon request so there are no surprises.
+            </p>
 
             <div className="bg-muted/30 rounded-2xl overflow-hidden shadow-lg max-w-2xl mx-auto">
               <table className="w-full">
