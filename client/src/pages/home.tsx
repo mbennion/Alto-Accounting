@@ -173,7 +173,7 @@ export default function Home() {
                 Alto Accounting is a husband-and-wife owned and operated firm founded by Graydon Anderson, CPA, and Angela Bennion Anderson, CPA. We're proud parents of four children.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Both are graduates of BYU's nationally top-ranked accounting programs. Graydon brings five years at <span className="font-semibold text-primary">EY</span> and 10 years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela contributes experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
+                Both are graduates of BYU's nationally top-ranked accounting programs. Graydon brings five years at <span className="font-semibold text-primary">EY</span> and ten years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela contributes experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 We deliver the precision and expertise of a Fortune 100 finance team—combined with the personal attention and care that only a family-run firm can provide—for your bookkeeping, business taxes, and financial strategy.
