@@ -142,13 +142,13 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-5 gap-16 items-center">
+          <div className="grid md:grid-cols-3 gap-16 items-center">
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="relative flex justify-center md:col-span-2"
+              className="relative flex justify-center md:col-span-1"
             >
               <div className="relative w-4/5">
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-secondary rounded-tl-3xl -z-10" />
@@ -166,7 +166,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="md:col-span-3 md:pl-8 max-w-3xl"
+              className="md:col-span-2 md:pl-8 max-w-3xl"
             >
               <h2 className="text-4xl font-serif font-bold text-primary mb-6">About us</h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
