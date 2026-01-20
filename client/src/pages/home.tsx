@@ -231,8 +231,8 @@ export default function Home() {
               },
               {
                 icon: Briefcase,
-                title: "Business Tax",
-                description: "C-Corp, S-Corp, Partnerships, LLC, or sole proprietor — file confidently and maximize deductions."
+                title: "Business Taxes",
+                description: "C-Corps, S-Corps, partnerships, LLCs, and sole proprietors—file confidently and maximize deductions."
               },
               {
                 icon: BookOpen,
