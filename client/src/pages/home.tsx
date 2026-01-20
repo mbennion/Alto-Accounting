@@ -185,7 +185,7 @@ export default function Home() {
                     <Briefcase className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground">Ex-Big 4</h4>
+                    <h4 className="font-bold text-foreground">Former Big 4</h4>
                     <p className="text-sm text-muted-foreground">EY and PwC Experience</p>
                   </div>
                 </div>
