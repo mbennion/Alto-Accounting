@@ -384,7 +384,7 @@ export default function Home() {
                   "Big 4 and Fortune 100 expertise",
                   "Owner-operated, hands-on service",
                   "Personalized, responsive service",
-                  "Local knowledge — available remote or in-person"
+                  "Nationwide expertise with local roots — proudly based in Heber City, UT, delivering remote service across the US"
                 ].map((item, i) => (
                   <motion.div 
                     key={i}
