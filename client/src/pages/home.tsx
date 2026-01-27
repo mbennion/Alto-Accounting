@@ -173,7 +173,7 @@ export default function Home() {
                 Alto Accounting is led by husband-and-wife team Graydon Anderson, CPA, and Angela Bennion Anderson, CPA. We're proud parents of four children and love calling Heber City, Utah our home.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Both of us are graduates of BYU's top-ranked accounting program. Graydon spent five years at <span className="font-semibold text-primary">EY</span> and ten years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela brings experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>.
+                Both of us are graduates of BYU's top-ranked accounting program. Graydon spent five years at <span className="font-semibold text-primary">EY</span> and ten years in financial and operational planning at <span className="font-semibold text-primary">Apple</span>. Angela brings experience from <span className="font-semibold text-primary">PwC</span> and <span className="font-semibold text-primary">Sonos</span>. Angela was a recipient of the Elijah Watts Sells Award, an honor given to a very small number of top-scoring CPA candidates nationwide.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 We combine Fortune 100–level precision with the personal attention of a family-run firm to support your bookkeeping, business taxes, and financial strategy.
