@@ -14,7 +14,8 @@ import {
   ArrowRight,
   DollarSign,
   Upload,
-  GraduationCap
+  GraduationCap,
+  Award
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -179,7 +180,7 @@ export default function Home() {
                 We combine Fortune 100–level precision with the personal attention of a family-run firm to support your bookkeeping, business taxes, and financial strategy.
               </p>
               
-              <div className="grid grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary mt-1">
                     <Briefcase className="w-5 h-5" />
@@ -205,6 +206,15 @@ export default function Home() {
                   <div>
                     <h4 className="font-bold text-foreground">BYU Grads</h4>
                     <p className="text-sm text-muted-foreground">Top-Ranked Accounting School</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary mt-1">
+                    <Award className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-foreground">Elijah Watts Sells Award</h4>
+                    <p className="text-sm text-muted-foreground">Top CPA Exam Scorer</p>
                   </div>
                 </div>
               </div>
