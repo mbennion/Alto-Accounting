@@ -443,25 +443,27 @@ export default function Home() {
               </p>
               
               <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-xl mx-auto">
-                <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
+                <a href="mailto:graydon@altoaccounting.com" className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all cursor-pointer">
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Mail className="w-6 h-6" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Email</h3>
-                  <a href="mailto:graydon@altoaccounting.com" className="text-accent hover:underline font-medium">graydon@altoaccounting.com</a>
-                </div>
+                  <span className="text-accent font-medium">graydon@altoaccounting.com</span>
+                </a>
 
-                <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all">
+                <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all cursor-pointer">
                   <div className="w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-4">
                     <Upload className="w-6 h-6" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Client Portal</h3>
-                  <a href="https://verifyle.com/@altoaccounting" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">Upload Documents</a>
-                </div>
+                  <span className="text-accent font-medium">Upload Documents</span>
+                </a>
               </div>
 
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 h-14 text-lg rounded-full shadow-xl shadow-primary/20" onClick={() => scrollToSection('contact')}>
-                Email to Schedule <ArrowRight className="ml-2 w-5 h-5" />
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 h-14 text-lg rounded-full shadow-xl shadow-primary/20" asChild>
+                <a href="mailto:graydon@altoaccounting.com">
+                  Email to Schedule <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>
